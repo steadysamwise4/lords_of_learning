@@ -1,6 +1,6 @@
 const multProblemsArr = [];
-const formArr1 = [0,1,2,3,4,5,6,7,8,9];
-const formArr2 = [1,2,3,4,5,6,7,8,9];
+const formArr1 = [0,1,2,3,4,5,6,7,8,9,10];
+const formArr2 = [1,2,3,4,5,6,7,8,9,10];
 
 const fillMultProblemsArr = function (formArr1, formArr2) {
 
