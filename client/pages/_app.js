@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
+import "../index.css";
+
 function Header({ title }) {
   return <h1>{title ? title : 'Default title'}</h1>
 }
@@ -13,8 +15,10 @@ export default function HomePage() {
     setLikes(likes + 1)
   }
 
+  
+
   return (
-    <div>
+    <div className="page" >
       <Header title="Welcome to Lords of Learning." />
       <ul>
         {benefits.map(benefit => (
